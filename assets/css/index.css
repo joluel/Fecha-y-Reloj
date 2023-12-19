@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before
+ {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 10rem;
+    font-weight: 400;
+    font-family: monospace;
+}
+
+.container p {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
